@@ -5,7 +5,12 @@ from scrollphathd.fonts import font5x5
 sch.clear()
 sch.rotate(180)
 
-sch.write_string('>>> COME BACK IN..... ')
+sch.write_string(
+	'>>> COME BACK IN..... ',
+	x=50,
+	y=0,
+	brightness=0.3,
+)
 
 for i in range(100):
 	sch.scroll(1)
