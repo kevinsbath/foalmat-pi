@@ -12,7 +12,7 @@ sch.write_string(
 	brightness=0.3,
 )
 
-for i in range(100):
+for i in range(120):
 	sch.scroll(1)
 	sch.show()
 
