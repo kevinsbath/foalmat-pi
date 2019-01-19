@@ -9,7 +9,7 @@ def sch_setup():
 
 
 
-def sch_setup_string(display_string):
+def sch_display_string(display_string):
 	sch.write_string(
 		display_string,
 		x=50,
